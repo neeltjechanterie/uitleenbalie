@@ -1,0 +1,108 @@
+<div class="row">
+    <div class="col-xs-6">
+        <h3 class="sg-h3">Basic inputs</h3>
+
+        <input type="text" class="form-control" placeholder="Text input">
+        <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+        <input class="form-control input-lg" type="text" placeholder=".input-lg">
+        <input class="form-control" type="text" placeholder="Default input">
+        <input class="form-control input-sm" type="text" placeholder=".input-sm">
+        <div class="row">
+            <div class="col-xs-2">
+                <input type="text" class="form-control" placeholder=".col-xs-2">
+            </div>
+            <div class="col-xs-3">
+                <input type="text" class="form-control" placeholder=".col-xs-3">
+            </div>
+            <div class="col-xs-4">
+                <input type="text" class="form-control" placeholder=".col-xs-4">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-6">
+        <h3 class="sg-h3">Validation inputs</h3>
+
+        <div class="form-group has-success has-feedback">
+            <label class="control-label" for="inputSuccess2">Input with success</label>
+            <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+            <span class="fa fa-check form-control-feedback" aria-hidden="true"></span>
+            <span id="inputSuccess2Status" class="sr-only">(success)</span>
+        </div>
+        <div class="form-group has-warning has-feedback">
+            <label class="control-label" for="inputWarning2">Input with warning</label>
+            <input type="text" class="form-control" id="inputWarning2" aria-describedby="inputWarning2Status">
+            <span class="fa fa-exclamation-triangle form-control-feedback" aria-hidden="true"></span>
+            <span id="inputWarning2Status" class="sr-only">(warning)</span>
+        </div>
+        <div class="form-group has-error has-feedback">
+            <label class="control-label" for="inputError2">Input with error</label>
+            <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status">
+            <span class="fa fa-times-circle form-control-feedback" aria-hidden="true"></span>
+            <span id="inputError2Status" class="sr-only">(error)</span>
+        </div>
+        <textarea class="form-control" rows="3" placeholder="Textarea with 3 rows ..."></textarea>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-3">
+        <h3 class="sg-h3">Selection options</h3>
+        <h3>Normal checkbox</h3>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="">
+                Check / Uncheck
+            </label>
+        </div>
+
+        <h3>Radio button</h3>
+
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Activated radio button
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Activate another radio button
+            </label>
+        </div>
+    </div>
+
+    <div class="col-xs-3">
+        <h3 class="sg-h3">Inline checkboxes</h3>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+        </label>
+    </div>
+
+    <div class="col-xs-3">
+        <h3 class="sg-h3">Select options</h3>
+        <select class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+
+    <div class="col-xs-3">
+        <h3 class="sg-h3">Multiple select options</h3>
+        <select multiple class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </div>
+</div>
