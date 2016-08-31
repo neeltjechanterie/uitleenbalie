@@ -1,0 +1,78 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*, *::before, *::after {
+  box-sizing: inherit;
+} 
+
+/**
+ * Basic styles for links
+ */
+a {
+  text-decoration: none;
+  outline: 0;
+
+  @include on-event {
+    text-decoration: none;
+    outline: 0;
+  }
+}
+
+body {
+  color: #797979;
+  background: #f2f2f2;
+  font-family: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 13px
+}
+
+
+::selection {
+  background: #68dff0;
+  color: #fff
+}
+
+::-moz-selection {
+  background: #68dff0;
+  color: #fff
+}
+
+#container {
+  width: 100%;
+  height: 100%
+}
+
+.modal-header {
+  background: #68dff0
+}
+
+.modal-title {
+  color: #fff
+}
+
+.bg-theme02 {
+  background-color: #ac92ec
+}
+
+.bg-theme03 {
+  background-color: #48cfad
+}
+
+.bg-theme04 {
+  background-color: #ed5565
+}
