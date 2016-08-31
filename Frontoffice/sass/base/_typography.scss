@@ -1,0 +1,44 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 14px $text-normal;
+  font-weight: 100;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $text-title;
+}
+h3{
+  font-size: 20px;
+  &.ruler{
+    border-bottom:1px solid $ahs-grey-light;
+    padding-bottom:15px;
+    margin-bottom:30px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-style: normal;
+  }
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text-primary {
+  color: $ahs-blue;
+}
+.text-faded {
+  color: rgba(255,255,255,.7);
+}
+.call-to-action h2 {
+  margin: 0 auto 20px;
+}
+.text-right{
+  text-align: right;
+}

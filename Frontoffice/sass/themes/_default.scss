@@ -1,0 +1,63 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+
+.bg-primary {
+  background-color: $ahs-green;
+}
+
+.bg-dark {
+  color: white;
+  background-color: $text-color;
+}
+.bg-grey {
+  color: white;
+  background-color: $ahs-grey-light;
+}
+.bg-orange {
+  color: white;
+  background-color: $ahs-orange;
+}
+.bg-pink {
+  color: white;
+  background-color: $ahs-pink;
+}
+.no-gutter > [class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+}
+::-moz-selection {
+  text-shadow: none;
+  color: white;
+  background: $text-color;
+}
+::selection {
+  text-shadow: none;
+  color: white;
+  background: $text-color;
+}
+img::selection {
+  color: white;
+  background: 0 0;
+}
+img::-moz-selection {
+  color: white;
+  background: 0 0;
+}
+.breadcrumb{
+  background-color: white;
+  border-top:1px solid $ahs-grey-light;
+  border-bottom:1px solid $ahs-grey-light;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 50px;
+  border-radius:0;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  color: $ahs-grey-light;
+  padding: 10px 15px;
+}
+.ruler-top{
+  border-top:1px solid $ahs-grey-light;
+  padding-top: 15px;
+}

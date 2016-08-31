@@ -1,0 +1,84 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$text-normal: Merriweather,'Helvetica Neue', Arial, sans-serif !default;
+$text-title: 'Open Sans','Helvetica Neue Light', Arial, sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+/// ARTEVELDEHOGESCHOOL HUISSTIJL
+$ahs-orange: #EE9900 !default;
+$ahs-green: #BBCC00 !default;
+$ahs-blue: #00AACC !default;
+$ahs-pink: #CC0077 !default;
+
+$ahs-green-rgba: rgba(187, 204, 0, 0.9) !default;
+$ahs-blue-rgba: rgba(0, 170, 204, 0.9) !default;
+$ahs-pink-rgba: rgba(204, 0, 119, 0.9) !default;
+$ahs-orange-rgba: rgba(238, 153, 0, 0.9) !default;
+
+/// GRIJSTINTEN
+$ahs-grey-light: #DDD !default;
+$ahs-grey-mid: #aaa !default;
+$ahs-grey-dark: #777 !default;
+$ahs-black: #000 !default;
+$text-color: #222 !default;
+
+$ahs-grey-light-rgba: rgba(221, 221, 221, 0.9) !default;
+$ahs-grey-mid-rgba: rgba(170, 170, 170, 0.9) !default;
+$ahs-grey-dark-rgba: rgba(119, 119, 119, 0.9) !default;
+$ahs-black-rgba: rgba(0, 0, 0, 0.9) !default;
+$text-color-rgba: rgba(34, 34, 34, 0.9) !default;
+
+
+/// Container's maximum width
+/// Below that is 100%
+/// @type Length
+$max-width: 1200px !default;
+
+.orange{
+  color: $ahs-orange;
+}
+.green{
+  color: $ahs-green;
+}
+.blue{
+  color: $ahs-blue;
+}
+.pink {
+  color: $ahs-pink;
+}
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+/// @see {mixin} respond-to
+$breakpoints: (
+  'small': (min-width: 320px),
+  'medium': (min-width: 768px),
+  'large': (min-width: 1024px),
+) !default;
+
+
+
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

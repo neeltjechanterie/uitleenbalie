@@ -1,0 +1,137 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn-default {
+  color: $text-color;
+  background-color: white;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  @include on-event{
+    border-color: $ahs-grey-mid !important;
+    color: $text-color !important;
+    background-color: $ahs-grey-light !important;
+  }
+
+}
+.btn-primary .badge {
+  color: $ahs-green;
+  background-color: white;
+  border:0;
+}
+
+.btn {
+  //border: 0;
+  border-radius: 300px;
+  text-transform: uppercase;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 700;
+}
+
+.btn-xl {
+  padding: 15px 30px;
+}
+
+.open > .dropdown-toggle.btn-default,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover{
+  border-color: $ahs-grey-mid !important;
+  color: $text-color !important;
+  background-color: $ahs-grey-light !important;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  border-color: white;
+  background-color: white;
+}
+
+.btn-default .badge {
+  color: white;
+  background-color: $text-color;
+}
+
+.btn-primary {
+  border-color: $ahs-green;
+  color: white;
+  background-color: $ahs-green;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  @include on-event{
+    border-color: $ahs-grey-mid;
+    color: white;
+    background-color: $ahs-grey-light;
+  }
+}
+.open > .dropdown-toggle.btn-primary {
+  border-color: $ahs-grey-mid;
+  color: white;
+  background-color: $ahs-grey-light;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  border-color: $ahs-green;
+  background-color: $ahs-green;
+}
+

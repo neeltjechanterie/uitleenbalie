@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  border-top:1px solid $ahs-grey-light;
+  /*background-color: #eee;*/
+  color: $ahs-grey-mid;
+  text-align: center;
+  .text-muted {
+    margin: 20px 0;
+    font-size:12px;
+  }
+}
