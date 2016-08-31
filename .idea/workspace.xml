@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="071dc79a-2732-411c-906e-1c87a20785b4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/_includes/about.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/about.md" afterPath="" />
     </list>
     <ignored path="uitleenbalie.iws" />
     <ignored path=".idea/workspace.xml" />
